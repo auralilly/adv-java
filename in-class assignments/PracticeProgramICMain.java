@@ -64,14 +64,15 @@ class PracticeProgram {
     // ---------------- NON-STATIC METHODS ----------------
 
     // complete the method signature
-    public  displayMessage(String message) {
+    public void displayMessage(String message) {
         System.out.println("Message: " + message);
     }
 
     // Instance method returning object
     //complete signature and method body
-    public concatenate(String a, String b) {
+    public String concatenate(String a, String b) {
         //concatenate the two string objects passed to this method and return
+        return a + b;
     }
 
     // Instance method with array parameter
