@@ -51,12 +51,14 @@ class PracticeProgram {
     // Static method returning an ArrayList
     public static ArrayList<String> convertToUpper(String[] words) {
         // create a local ArrayList
-      
+        ArrayList<String> result = new ArrayList<>();
         for (String word : words) {
             result.add(word.toUpperCase());
+            
+            
         }
         //return the array list
-       
+       return result;
     }
 
     // ---------------- NON-STATIC METHODS ----------------
