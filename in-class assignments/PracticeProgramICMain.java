@@ -41,6 +41,11 @@ class PracticeProgram {
     //of integers 0 to n
     public static int[] generateSquares(int n) {
         
+        int[] squares = new int[n + 1];
+        for (int i = 0; i <= n; i++) {
+            squares[i] = i * i;
+        }
+        return squares;
     }
 
     // Static method returning an ArrayList
