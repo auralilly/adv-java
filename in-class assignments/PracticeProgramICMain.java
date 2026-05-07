@@ -4,24 +4,29 @@ import java.util.Arrays;
 class PracticeProgram {
 
     // this variable should be static
-     int staticCounter = 0;
+     static int staticCounter = 0;
 
     // instance variable of type int
-    instanceCounter = 0;
+    int instanceCounter = 0;
 
     // code a Constructor that increments both the above variables
- 
+    public PracticeProgram() {
+        staticCounter++;
+        instanceCounter++;
+    }
 
     // ---------------- STATIC METHODS ----------------
 
     // this method returns the sum of its two parameters
     public static int add(int a, int b) {
+        return a + b;
         
     }
 
     // complete the method signature of this Static method average
     // with varargs (variable parameters) of type double and returns a double
-    {
+    public static double average(double... numbers){
+        
         if (numbers.length == 0) return 0;
 
         double sum = 0;
