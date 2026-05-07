@@ -123,7 +123,7 @@ class PracticeProgram {
         System.out.println("Average: " +  PracticeProgram.average(10, 20, 30, 40));
 
         //generate the squares of numbers 0 to 5 and print them
-        int[] squares = PracticeProgram.generateSquares(5);
+        int[] squares = PracticeProgram.generateSquares(4);
         System.out.println("Squares: " + Arrays.toString(squares));
 
         String[] words = {"java", "advanced", "program"};
@@ -137,7 +137,7 @@ class PracticeProgram {
         //call displayMessage with 'Welcome to the course'
         demo.displayMessage("Welcome to the course");
         //concatenate Hello and World and print Hello World 
-        String result = demo.concatenate("Hello", "World");
+        String result = demo.concatenate(" Hello ", " World ");
         System.out.println(result);
         
         int[] nums = {3, 7, 2, 9, 5};
