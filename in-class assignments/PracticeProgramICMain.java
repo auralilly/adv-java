@@ -123,7 +123,7 @@ class PracticeProgram {
         System.out.println("Average: " +  PracticeProgram.average(10, 20, 30, 40));
 
         //generate the squares of numbers 0 to 5 and print them
-        int[] squares = PracticeProgram.generateSquares(4);
+        int[] squares = PracticeProgram.generateSquares(5);
         System.out.println("Squares: " + Arrays.toString(squares));
 
         String[] words = {"java", "advanced", "program"};
